@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carNames">
+        <item>BMW</item>item>
+        <item>Mercedes</item>item>
+        <item>Jaguar</item>item>
+        <item>Toyota</item>item>
+        <item>Honda</item>item>
+        <item>Mazda</item>item>
+        <item>Nissan</item>item>
+        <item>Buick</item>item>
+        <item>Ford</item>item>
+        <item>Fiat</item>item>
+    </string-array>
+
+    <string-array name="carDetails">
+        <item>Cool</item>item>
+        <item>I have it already</item>item>
+        <item>Hope one day i got it</item>item>
+        <item>So Ugly</item>item>
+        <item>Wazaaaaaa</item>item>
+        <item>OMG</item>item>
+        <item>I will never buy it</item>item>
+        <item>Never heard of it</item>item>
+        <item>So powerful</item>item>
+        <item>What the heck is that</item>item>
+    </string-array>
+</resources>
