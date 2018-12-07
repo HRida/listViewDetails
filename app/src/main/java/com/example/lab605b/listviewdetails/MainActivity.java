@@ -1,6 +1,9 @@
 package com.example.lab605b.listviewdetails;
 
 import android.app.ListActivity;
+import android.content.res.Resources;
+import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
@@ -11,6 +14,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import org.w3c.dom.Text;
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class MainActivity extends ListActivity {
 
@@ -23,6 +27,15 @@ public class MainActivity extends ListActivity {
         // Storing string resources into Array
         String[] car_names = getResources().getStringArray(R.array.carNames);
         final String[] car_detail = getResources().getStringArray(R.array.carDetails);
+
+        /* //This chunk of code is used for calling icons and color from an array in list_data
+        Resources res = getResources();
+        TypedArray icons = res.obtainTypedArray(R.array.icons);
+        Drawable drawable = icons.getDrawable(0);
+
+        TypedArray colors = res.obtainTypedArray(R.array.colors);
+        int color = colors.getColor(0,0);
+        */
 
         // Binding resources Array to ListAdapter
         this.setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item,R.id.label, car_names));
